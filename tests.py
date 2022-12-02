@@ -3,7 +3,7 @@ import unittest
 from party import app
 from model import db, example_data, connect_to_db
 
-
+# FLask integration test
 class PartyTests(unittest.TestCase):
     """Tests for my party site."""
 
@@ -18,6 +18,11 @@ class PartyTests(unittest.TestCase):
     def test_no_rsvp_yet(self):
         # FIXME: Add a test to show we see the RSVP form, but NOT the
         # party details
+        
+
+      
+
+
         print("FIXME")
 
     def test_rsvp(self):
@@ -29,7 +34,7 @@ class PartyTests(unittest.TestCase):
         # not the RSVP form
         print("FIXME")
 
-
+# Flask + Database testing
 class PartyTestsDatabase(unittest.TestCase):
     """Flask tests that use the database."""
 
